@@ -27,8 +27,7 @@ class ThankYouScreen extends StatelessWidget {
               child: Text('Close'),
               onPressed: () {
                 SystemNavigator.pop();
-                // Navigator.pop(context,
-                // MaterialPageRoute(builder: (context) => LoginPage()));
+                
               },
               style: ElevatedButton.styleFrom(
                 shape: StadiumBorder(),
